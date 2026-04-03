@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Contact</title>
+</head>
+<body>
+    
+<!-- Chatbot Section -->
+<section id="contact" class="section">
+    <h2>Ask My AI Chatbot</h2>
+    <p>Enter a prompt below and choose your retrieval method.</p>
+
+    <form id="chat-form" class="contact-form">
+        <label for="retrieval-method"><strong>Retrieval Method:</strong></label>
+        <select id="retrieval-method" name="retrievalMethod">
+            <option value="semantic">Semantic (Embeddings)</option>
+            <option value="tfidf">TF-IDF (Keyword)</option>
+        </select>
+        <br><br>
+
+        <label for="message"><strong>Your Prompt</strong></label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <button type="submit" id="submit">Send Prompt</button>
+    </form>
+
+    <h2>Upload Document</h2>
+    <input type="file" id="document-upload" accept=".pdf,.txt">
+    <button id="upload-btn">Upload</button>
+
+    <h3>Uploaded Documents</h3>
+    <ul id="documents-list"></ul>
+
+</section>
+
+<br>
+<div id="response"></div>
+
+<!-- RAG Results Section -->
+<div id="rag-results" style="display:none;">
+    <h3>Retrieved Evidence</h3>
+    <div id="retrieved-documents"></div>
+
+    <h3>Confidence Metrics</h3>
+    <div id="confidence-metrics"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

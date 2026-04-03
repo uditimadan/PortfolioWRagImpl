@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Header -->
+    <header> <h1>Personal Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="section"> <h2>About Me</h2> <h4>Uditi Madan</h4>
+        <p> Hi! I’m a Computer Science undergraduate with a minor in Business at the University of San Francisco, graduating in May 2026. I recently interned as an AI Intern at Oodles Technologies, where I integrated LLM APIs into existing software using Python, enhancing both functionality and user experience. This role deepened my technical expertise and strengthened my ability to apply AI in real-world web applications. I also have a strong passion for digital marketing. As part of Women in Technology, I created and promoted content across social media platforms to grow engagement and visibility for the club.</p>
+        <img src="img/uditi.jpg" alt="Picture of Me" width="500">
+        <p> <strong>I’m excited to pursue opportunities which blends my passion in both marketing and web development using genai tools, allowing me to bridge creative strategy with a technical execution :) </strong></p>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section"> <h2>Projects</h2>
+        <ul>
+            <li><h3> <a href="https://github.com/uditimadan"> AI Sales Assistant | Python, GPT-4, CRM Integration</a></h3>
+                <p> Developed an AI-powered sales assistant using GPT-4 API to automate customer interactions and qualify leads and implemented natural language understanding to route customer queries effectively, achieving 85% classification accuracy</p>
+            </li>
+            <li>
+                <h3><a href="https://github.com/uditimadan"> Blackjack Game Simulator | Java, Object-Oriented Programming</a></h3>
+                <p>Built an interactive Blackjack game in Java using OOP principles, implementing game logic with multiple difficulty levels. Designed algorithms for card shuffling, betting systems, and AI dealer behavior to simulate realistic gameplay </p>
+            </li>
+            <li>
+                <h3><a href="https://github.com/uditimadan/Matrix-Detection"> Matrix-Detection Web App | JavaScript, HTML/CSS, Responsive Design</a></h3>
+                <p>This project is a web application that performs real-time object detection using your webcam, styled with a cool Matrix-inspired theme. It uses TensorFlow.js and the COCO-SSD model for object detection, and features a falling "digital rain" effect in the background.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section"><h2>Hobbies</h2>
+        <ul>
+            <li><h3>Photography</h3>
+                <p>I love capturing rare moments through a lens and it is a way to show how I see the world differently. From street photography to landscapes, I love finding beauty in everyday scenes and freezing them in time.</p>
+                <img src="img/photography.jpg" alt="Photography" width="500">
+            </li>
+            <li>
+                <h3>Beach</h3>
+                <p>I love me a beach day. Like nothing beats a day at the beach, whether it's swimming, playing beach volleyball with friends, or simply unwinding by the waves with a good book.</p>
+                <img src="img/beach.jpg" alt="Beach" width="500">
+            </li>
+            <li>
+                <h3>Football</h3>
+                <p>I enjoy playing and watching football. I was on my highschool football team and I still love to play it in my free time with friends!</p>
+                <img src="img/football.jpg" alt="Football" width="500">
+            </li>
+        </ul>
+    </section>
+    <section id="skills-quiz" class="section">
+        <h2>Script Quiz</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <input type="number" id="age" placeholder="Enter your age">
+        <!-- Button -->
+        <button id="start-quiz">Start Quiz</button>
+        <p id="greeting"></p>
+        <p id="age-check"></p>
+        <p id="skills-list"></p>
+    </section>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Uditi Madan <em>Designed &amp; built without AI.</em></p>
+    </footer>
+    <!-- Linking Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
