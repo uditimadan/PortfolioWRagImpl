@@ -14,7 +14,9 @@ My system:
 # MongoDB Atlas Connection
 
 Document collection
-<img width="628" height="387" alt="Screenshot 2026-04-02 at 5 32 16 PM" src="https://github.com/user-attachments/assets/648d29a6-b76a-445e-8c95-98587df69e14" />
+
+<img width="1324" height="645" alt="Screenshot 2026-04-02 at 5 28 10 PM" src="https://github.com/user-attachments/assets/21ab110f-c945-4098-9f83-61030b05da2f" />
 
 Interaction collection with retrieved evidence + confidenceMetrics fields visible
+
 <img width="763" height="409" alt="Screenshot 2026-04-02 at 5 46 20 PM" src="https://github.com/user-attachments/assets/a8dca98f-cc30-45cb-a1df-8a9d06245fac" />
