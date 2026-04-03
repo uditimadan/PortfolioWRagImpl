@@ -11,5 +11,6 @@ My system:
 * display retrieved evidence (with relevance scores) in the interface; and
 * compute and display confidence metrics based on retrieved evidence.
 
-<img width="1298" height="675" alt="Screenshot 2026-03-23 at 11 41 22 PM" src="https://github.com/user-attachments/assets/2d8579dd-3f27-426f-bdef-77e4c4b2a978" />
-<img width="1240" height="622" alt="Screenshot 2026-03-23 at 11 22 23 PM" src="https://github.com/user-attachments/assets/b071bce2-cd4e-460d-b431-d70848c9bba2" />
+
+<img width="628" height="387" alt="Screenshot 2026-04-02 at 5 32 16 PM" src="https://github.com/user-attachments/assets/648d29a6-b76a-445e-8c95-98587df69e14" />
+<img width="763" height="409" alt="Screenshot 2026-04-02 at 5 46 20 PM" src="https://github.com/user-attachments/assets/a8dca98f-cc30-45cb-a1df-8a9d06245fac" />
